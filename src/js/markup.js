@@ -6,8 +6,6 @@ const menuItem = createMenuCard(menu);
 
 menuListRef.innerHTML = menuItem;
 
-console.log(menuListRef);
-
 function createMenuCard(menu) {
   return card(menu);
 }
